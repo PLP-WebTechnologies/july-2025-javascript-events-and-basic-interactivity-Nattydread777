@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Week 6 - Part 1</title>
+  <!-- Link external CSS -->
+  <link rel="stylesheet" href="style/styles.css">
+</head>
+<body>
+    
+    <!-- Buttons side by side using flexbox -->
+<div class="button-container">
+  <button id="clickMeBtn">Click Me!</button>
+  <button id="toggleBtn">Switch to Dark Mode</button>
+</div>
+<p id="message"></p>
+
+<hr>
+<h2>Counter Game</h2>
+<p>Count: <span id="count">0</span></p>
+<button id="incrementBtn">+1</button>
+<button id="resetBtn">Reset</button>
+
+<hr>
+<h2>Collapsible FAQ</h2>
+<button class="faq-toggle">What is PLP? </button>
+<p class="faq-answer" style="display:none;">Power Learn Project is a Pan-African digital skills initiative</p>
+
+<hr>
+<h2>Dropdown Menu</h2>
+<select id="dropdownMenu">
+  <option value="">--Select an option--</option>
+  <option value="html">HTML</option>
+  <option value="css">CSS</option>
+  <option value="js">JavaScript</option>
+</select>
+<p id="dropdownResult"></p>
+
+<hr>
+<h2>Tabbed Interface</h2>
+<div class="tabs">
+  <button class="tab-btn" data-tab="tab1">Tab 1</button>
+  <button class="tab-btn" data-tab="tab2">Tab 2</button>
+  <button class="tab-btn" data-tab="tab3">Tab 3</button>
+</div>
+<div id="tab1" class="tab-content">Content for Tab 1</div>
+<div id="tab2" class="tab-content" style="display:none;">Content for Tab 2</div>
+<div id="tab3" class="tab-content" style="display:none;">Content for Tab 3</div>
+
+<section id="contact-form">
+  <h2>Contact Form</h2>
+  <form id="myForm">
+  <p>
+    <label for="name">Name:</label>
+    <input type="text" id="name" />
+    <small id="nameError" class="error"></small>
+  </p>
+  <p>
+    <label for="email">Email:</label>
+    <input type="text" id="email" />
+    <small id="emailError" class="error"></small>
+  </p>
+  <p>
+    <label for="password">Password:</label>
+    <input type="password" id="password" />
+    <small id="passwordError" class="error"></small>
+  </p>
+  <button type="submit">Submit</button>
+</form>
+
+</section>
+
+
+  <!-- Link external JavaScript -->
+  <script src="script/script.js"></script>
+</body>
+</html>
+
