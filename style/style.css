@@ -1,0 +1,59 @@
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 40px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Dark mode styles */
+.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+/* Container for side-by-side buttons */
+.button-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin: 20px 0;
+}
+
+/* Counter buttons */
+#incrementBtn, #resetBtn {
+  margin: 5px;
+}
+
+/* FAQ */
+.faq-toggle {
+  display: block;
+  margin: 10px auto;
+  padding: 8px;
+  cursor: pointer;
+}
+
+/* Tabs */
+.tabs {
+  margin: 10px 0;
+}
+.tab-btn {
+  padding: 8px 12px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+.tab-content {
+  margin-top: 10px;
+  padding: 10px;
+  border: 1px solid #aaa;
+}
+
+.error {
+  color: red;
+  font-size: 0.9rem;
+}
